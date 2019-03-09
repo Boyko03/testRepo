@@ -10,3 +10,9 @@ double Calculator::sine(int degrees){
 
 	return sin(radians);
 }
+
+double Calculator::cosine(int degrees){
+	double radians = M_PI * degrees /180;
+
+	return cos(radians);
+}

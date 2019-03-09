@@ -6,4 +6,5 @@ public:
 
 	int add(int, int);
 	double sine(int);
+	double cosine(int);
 };
